@@ -1,0 +1,86 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wrapper{
+    position: relative;
+}
+
+body{
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(images/bg.png.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    position: fixed;
+    float: left;
+    margin: 16px 36px;
+    color: white;
+    background-image: url('MINI_PROJECT/mp1.html');
+    
+}
+.logo:hover{
+    cursor: pointer;
+}
+
+.data{
+    
+}
+nav{
+    position: fixed;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    background:rgba(red, green, blue, alpha) ;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s ;
+} 
+
+nav.black ul{
+    background: #000;
+}
+nav ul li{
+    display: inline-block;
+    padding:20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn{
+    cursor: pointer;
+    background-color: rgb(20, 8, 189);
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-flex ;
+    border-radius: 6px;
+    border: 2px;
+    padding: 7px 12px;
+    align-items: right;
+    justify-content: space-between;
+}
+body a:hover{
+    cursor: pointer;
+}
+
+
+
+
